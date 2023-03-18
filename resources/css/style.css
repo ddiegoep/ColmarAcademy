@@ -1,6 +1,6 @@
 /*Universal*/
 
-body{
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: rgb(55, 55, 55);
@@ -10,39 +10,39 @@ body{
 
 /*Header*/
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     max-height: 4rem;
 }
 
-header div{
+header div {
     display: flex;
     align-items: center;
 }
 
-header img{
+header img {
     display: inline-flex;
     margin-left: 1.5rem;
 }
 
-header div p{
+header div p {
     color: grey;
 }
 
-header div p span{
+header div p span {
     color: rgb(55, 55, 55);
     font-weight: bold;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     align-items: center;
     list-style: none;
     margin-right: 1.5rem;
 }
 
-header nav ul li a{
+header nav ul li a {
     display: inline-flex;
     margin: 0rem 0.5rem 0rem 0.5rem;
     color: rgb(55, 55, 55);
@@ -51,29 +51,29 @@ header nav ul li a{
 
 /*Banner*/
 
-#banner{
-    display: flex;  
-    background-color: rgba(128,128,128,0.4);
+#banner {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.4);
     width: 100%;
-    padding: 2rem 1.5rem 2rem 1.5rem;  
+    padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
-#banner img{
+#banner img {
     display: inline-flex;
     margin-right: 2rem;
     width: 60%;
 }
 
-#banner div{
+#banner div {
     margin: auto;
 }
 
-#banner div h1{
+#banner div h1 {
     font-weight: bold;
 }
 
-#banner div a{
-    display:flex;
+#banner div a {
+    display: flex;
     justify-content: center;
     color: white;
     background-color: rgb(55, 55, 55);
@@ -85,131 +85,154 @@ header nav ul li a{
 
 /*main*/
 
-#main{
-    display: flex;  
+#main {
+    display: flex;
     background-color: white;
     width: 100%;
 }
 
-#mainleft{
-    padding: 2rem 1.5rem 2rem 1.5rem;  
+#mainleft {
+    padding: 2rem 1.5rem 2rem 1.5rem;
     width: 60%;
-    border-right: 1px solid rgba(128,128,128,0.3);
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
 }
 
-#mainleft img{
+#mainleft img {
     max-width: 100%;
 }
 
-#mainright{
+#mainright {
     max-width: 40%;
     height: auto;
-    padding: 1rem 1.5rem 1rem 0rem;  
+    padding: 1rem 1.5rem 1rem 0rem;
 }
 
-#mainright .container{
+#mainright .container {
     display: flex;
-    border-bottom: 1px solid rgba(128,128,128,0.3);
-    padding: 1rem; 
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 1rem;
 }
 
-#mainright .container img{
+#mainright .container img {
     display: inline-flex;
     max-width: 35%;
 }
 
-#mainright .container div{
-    max-width:65%;
+#mainright .container div {
+    max-width: 65%;
     align-items: center;
     padding: 2rem;
 }
 
-#mainright .container div a{
+#mainright .container div a {
     text-decoration: none;
     color: rgb(82, 179, 217);
 }
 
 /*Courses*/
 
-#courses{  
-    background-color: rgba(128,128,128,0.4);
+#courses {
+    background-color: rgba(128, 128, 128, 0.4);
     width: 100%;
-    padding: 2rem 2.5rem 2rem 2.5rem;  
+    padding: 2rem 2.5rem 2rem 2.5rem;
 }
 
-#courses h1{
+#courses h1 {
     width: 100%;
     text-align: center;
 }
 
-#courses #gallery{
+#courses #gallery {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
-#courses #gallery .box{
+#courses #gallery .box {
     width: 28rem;
     height: 28rem;
     background-color: white;
     margin: 2rem 1rem 2rem 1rem;
 }
 
-#courses #gallery .box img{
+#courses #gallery .box img {
     width: 100%;
 }
 
-#courses #gallery .box div{
+#courses #gallery .box div {
     margin: 1rem;
 }
 
 /*Thesis*/
 
-#thesis{
-    text-align: center; 
+#thesis {
+    text-align: center;
     background-color: white;
     width: 100%;
 }
 
-#thesis h1{
+#thesis h1 {
     margin: 2rem 0rem;
 }
 
-#exhibit{
+#exhibit {
     display: flex;
     margin: 0rem 0rem 2rem 1.5rem;
 }
 
-#exhibitleft{
+#exhibitleft {
     max-width: 60%;
     text-align: left;
     margin-right: 1.5rem;
 }
 
-#exhibitleft video{
+#exhibitleft video {
     max-width: 100%;
     margin-bottom: 1.5rem;
 }
 
-#exhibitright{
+#exhibitright {
     max-width: 40%;
 }
 
-#exhibitright .container{
+#exhibitright .container {
     display: flex;
-    padding: 1rem; 
+    padding: 1rem;
 }
 
-#exhibitright .container img{
+#exhibitright .container img {
     display: inline-flex;
     max-width: 35%;
     height: auto;
     margin-right: 1rem;
 }
 
-#exhibitright .container div{
-    max-width:65%;
+#exhibitright .container div {
+    max-width: 65%;
     align-items: center;
     text-align: left;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+    border-top: 1px solid rgb(55, 55, 55);
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer li {
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+footer a {
+    text-decoration: none;
 }
