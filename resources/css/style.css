@@ -128,3 +128,40 @@ header nav ul li a{
     text-decoration: none;
     color: rgb(82, 179, 217);
 }
+
+/*Courses*/
+
+#courses{  
+    background-color: rgba(128,128,128,0.4);
+    width: 100%;
+    padding: 2rem 2.5rem 2rem 2.5rem;  
+}
+
+#courses h1{
+    width: 100%;
+    text-align: center;
+}
+
+#courses #gallery{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#courses #gallery .box{
+    width: 28rem;
+    height: 28rem;
+    background-color: white;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+#courses #gallery .box img{
+    width: 100%;
+}
+
+#courses #gallery .box div{
+    margin: 1rem;
+}
+
+/*Thesis*/
