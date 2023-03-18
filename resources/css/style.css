@@ -85,3 +85,46 @@ header nav ul li a{
 
 /*main*/
 
+#main{
+    display: flex;  
+    background-color: white;
+    width: 100%;
+}
+
+#mainleft{
+    padding: 2rem 1.5rem 2rem 1.5rem;  
+    width: 60%;
+    border-right: 1px solid rgba(128,128,128,0.3);
+}
+
+#mainleft img{
+    max-width: 100%;
+}
+
+#mainright{
+    max-width: 40%;
+    height: auto;
+    padding: 1rem 1.5rem 1rem 0rem;  
+}
+
+#mainright .container{
+    display: flex;
+    border-bottom: 1px solid rgba(128,128,128,0.3);
+    padding: 1rem; 
+}
+
+#mainright .container img{
+    display: inline-flex;
+    max-width: 35%;
+}
+
+#mainright .container div{
+    max-width:65%;
+    align-items: center;
+    padding: 2rem;
+}
+
+#mainright .container div a{
+    text-decoration: none;
+    color: rgb(82, 179, 217);
+}
