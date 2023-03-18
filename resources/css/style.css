@@ -51,5 +51,37 @@ header nav ul li a{
 
 /*Banner*/
 
+#banner{
+    display: flex;  
+    background-color: rgba(128,128,128,0.4);
+    width: 100%;
+    padding: 2rem 1.5rem 2rem 1.5rem;  
+}
 
+#banner img{
+    display: inline-flex;
+    margin-right: 2rem;
+    width: 60%;
+}
+
+#banner div{
+    margin: auto;
+}
+
+#banner div h1{
+    font-weight: bold;
+}
+
+#banner div a{
+    display:flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(55, 55, 55);
+    text-decoration: none;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/*main*/
 
