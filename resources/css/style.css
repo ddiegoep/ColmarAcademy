@@ -49,6 +49,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header .logolink {
+    display: none;
+}
+
 /*Banner*/
 
 #banner {
@@ -60,27 +64,28 @@ header nav ul li a {
 
 #banner img {
     display: inline-flex;
-    margin-right: 2rem;
+    padding-right: 2rem;
     width: 60%;
 }
 
 #banner div {
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3rem;
 }
 
 #banner div h1 {
     font-weight: bold;
 }
 
-#banner div a {
+#banner a {
     display: flex;
     justify-content: center;
     color: white;
     background-color: rgb(55, 55, 55);
     text-decoration: none;
     width: 100%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0rem 1rem 0rem;
 }
 
 /*main*/
@@ -92,8 +97,8 @@ header nav ul li a {
 }
 
 #mainleft {
-    padding: 2rem 1.5rem 2rem 1.5rem;
-    width: 60%;
+    padding: 2rem 1.5rem 2rem 2rem;
+    max-width: 60%;
     border-right: 1px solid rgba(128, 128, 128, 0.3);
 }
 
@@ -102,8 +107,6 @@ header nav ul li a {
 }
 
 #mainright {
-    max-width: 40%;
-    height: auto;
     padding: 1rem 1.5rem 1rem 0rem;
 }
 
@@ -111,17 +114,22 @@ header nav ul li a {
     display: flex;
     border-bottom: 1px solid rgba(128, 128, 128, 0.3);
     padding: 1rem;
+    align-items: center;
 }
 
-#mainright .container img {
-    display: inline-flex;
+#mainright .container .pcimg {
     max-width: 35%;
+    height: fit-content;
+    flex-shrink: 0;
+}
+
+#mainright .container .mobileimg {
+    display: none;
 }
 
 #mainright .container div {
-    max-width: 65%;
     align-items: center;
-    padding: 2rem;
+    padding: 0rem 2rem 0rem 2rem;
 }
 
 #mainright .container div a {
@@ -235,4 +243,75 @@ footer li {
 
 footer a {
     text-decoration: none;
+}
+
+/*Responsive Design*/
+
+
+@media screen and (max-width: 1200px) {
+
+    #mainleft {
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    header p {
+        display: none;
+    }
+
+    #banner {
+        display: block;
+        text-align: center;
+        padding: 0rem;
+    }
+
+    #banner img {
+        width: 100%;
+        margin-left: 0rem;
+        padding: 0rem;
+    }
+
+    #banner div {
+        margin: auto;
+        padding: 0rem 1rem 2rem 1rem;
+    }
+
+    #mainleft {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    header .textlink {
+        display: none;
+    }
+
+    header .logolink {
+        display: inline-flex;
+        padding: 0rem 2rem;
+    }
+    #mainright .container .pcimg {
+        display: none;
+    }
+
+    #mainright .container .mobileimg {
+        display: flex;
+        max-width: 100%;
+        margin: 0rem;
+        padding: 1rem;
+    }
+    
+    #mainright .container{
+        display: block;
+    }
+
+    #mainright .container div{
+        width: 100%;
+    }
+
 }
