@@ -201,7 +201,7 @@ header .logolink {
 }
 
 #exhibitright {
-    max-width: 40%;
+    display: block;
 }
 
 #exhibitright .container {
@@ -212,7 +212,8 @@ header .logolink {
 #exhibitright .container img {
     display: inline-flex;
     max-width: 35%;
-    height: auto;
+    height: fit-content;
+    flex-shrink: 0;
     margin-right: 1rem;
 }
 
@@ -251,6 +252,10 @@ footer a {
 @media screen and (max-width: 1200px) {
 
     #mainleft {
+        max-width: 40%;
+    }
+
+    #exhibitleft {
         max-width: 40%;
     }
 
@@ -306,6 +311,17 @@ footer a {
     #courses #gallery .box p{
         display: none;
     }
+
+    #exhibit #exhibitleft{
+        display: block;
+        max-width: 100%;
+        margin: 0rem;
+        padding-right: 1.5rem;
+    }
+
+    #exhibit #exhibitright{
+        display: none;
+    }
 }
 
 
@@ -336,6 +352,10 @@ footer a {
 
     #mainright .container div{
         width: 100%;
+    }
+
+    #exhibit #exhibitleft h2, p{
+        display: none;
     }
 
 }
