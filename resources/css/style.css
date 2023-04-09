@@ -354,7 +354,23 @@ footer a {
         width: 100%;
     }
 
-    #exhibit #exhibitleft h2, p{
+    #exhibit #exhibitleft h2{
+        display: none;
+    }
+
+    #exhibit #exhibitleft p{
+        display: none;
+    }
+
+    footer{
+        display: block;
+    }
+
+    footer p{
+        font-size: 0.80rem;
+    }
+
+    footer nav{
         display: none;
     }
 
