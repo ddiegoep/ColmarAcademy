@@ -142,12 +142,12 @@ header .logolink {
 #courses {
     background-color: rgba(128, 128, 128, 0.4);
     width: 100%;
-    padding: 2rem 2.5rem 2rem 2.5rem;
 }
 
 #courses h1 {
     width: 100%;
     text-align: center;
+    margin: 2rem 0rem;
 }
 
 #courses #gallery {
@@ -253,6 +253,7 @@ footer a {
     #mainleft {
         max-width: 40%;
     }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -282,6 +283,29 @@ footer a {
         display: none;
     }
 
+    #courses {
+        background-color: white;
+    }
+    
+    #courses #gallery .box{
+        display: block;
+        height: fit-content;
+        background-color: rgba(128, 128, 128, 0.4);
+        margin: 0.5rem 1rem;
+        padding: 1rem;
+    }
+
+    #courses #gallery .box img{
+        display: none;
+    }
+
+    #courses #gallery .box h2{
+        margin: 0rem;
+    }
+
+    #courses #gallery .box p{
+        display: none;
+    }
 }
 
 
