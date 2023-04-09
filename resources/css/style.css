@@ -59,19 +59,16 @@ header .logolink {
     display: flex;
     background-color: rgba(128, 128, 128, 0.4);
     width: 100%;
-    padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
 #banner img {
     display: inline-flex;
-    padding-right: 2rem;
+    margin: 1rem;
     width: 60%;
 }
 
 #banner div {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 3rem;
+    margin: auto 1rem;
 }
 
 #banner div h1 {
@@ -107,7 +104,7 @@ header .logolink {
 }
 
 #mainright {
-    padding: 1rem 1.5rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 #mainright .container {
@@ -275,7 +272,7 @@ footer a {
 
     #banner img {
         width: 100%;
-        margin-left: 0rem;
+        margin: 1rem 0rem;
         padding: 0rem;
     }
 
@@ -333,7 +330,8 @@ footer a {
 
     header .logolink {
         display: inline-flex;
-        padding: 0rem 2rem;
+        margin: 0rem;
+        padding: 0rem 0.5rem;
     }
     #mainright .container .pcimg {
         display: none;
@@ -343,7 +341,7 @@ footer a {
         display: flex;
         max-width: 100%;
         margin: 0rem;
-        padding: 1rem;
+        padding: 1rem 0rem;
     }
     
     #mainright .container{
@@ -351,6 +349,7 @@ footer a {
     }
 
     #mainright .container div{
+        padding: 0;
         width: 100%;
     }
 
